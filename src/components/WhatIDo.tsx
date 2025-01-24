@@ -89,10 +89,9 @@ const WhatIDo = () => {
             <div className="what-content-in">
               <h3>DEVELOP</h3>
               <h4>Description</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
-              </p>
+                <p>
+                As a developer, I am passionate about creating efficient and scalable web applications. I enjoy solving complex problems and continuously learning new technologies to improve my skill set. My goal is to build user-friendly and high-performance applications that provide a seamless experience for users.
+                </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">JavaScript</div>
@@ -130,10 +129,9 @@ const WhatIDo = () => {
             <div className="what-content-in">
               <h3>DESIGN</h3>
               <h4>Description</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
-              </p>
+                <p>
+                As a designer, I strive to create visually appealing and user-centric designs. My focus is on crafting intuitive interfaces and engaging experiences that resonate with users. I believe in the power of design to communicate ideas effectively and to enhance the overall user experience. My approach combines creativity with a deep understanding of design principles and user behavior.
+                </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Blender</div>

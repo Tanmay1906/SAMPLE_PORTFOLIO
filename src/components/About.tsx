@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+        Hello! I&apos;m Tanmay Verma, a passionate Cybersecurity, Blockchain, and Web Development enthusiast pursuing a B.Tech in Computer Science with a specialization in Cybersecurity and Blockchain Technology at Dronacharya College of Engineering. With a strong foundation in technical skills. I strive to create impactful solutions through innovative problem-solving and cutting-edge technology.
         </p>
       </div>
     </div>

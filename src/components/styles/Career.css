@@ -74,6 +74,14 @@
   margin: 10px 0px;
   color: var(--accentColor);
 }
+.career-info h6 {
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 10px 0px;
+  color: var(--accentColor);
+}
 .career-timeline {
   position: absolute;
   top: -50px;

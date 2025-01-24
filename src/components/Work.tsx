@@ -48,23 +48,33 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+            {[
+            { title: "Created Url - Shortener", category: "Web Development", tools: "JavaScript, React, CSS", image: "../../public/images/Project1.jpeg" },
+            { title: "Shoe Company", category: "Landing Page", tools: "HTML and Tailwind CSS", image: "../../public/images/Project2.png" },
+            { title: "Zidio Develoment Company Website", category: "Full Stack", tools: "MERN", video: "../../public/images/Project3.mp4" },
+            ].map((project, index) => (
             <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+              <div className="work-info"> 
+              <div className="work-title">
+                <h3>0{index + 1}</h3>
+                <div>
+                <h4>{project.title}</h4>
+                <p>{project.category}</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>{project.tools}</p>
+              </div>
+              {project.image ? (
+              <WorkImage image={project.image} alt={project.title} />
+              ) : (
+              <video controls>
+                <source src={project.video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              )}
             </div>
-          ))}
+            ))}
         </div>
       </div>
     </div>
